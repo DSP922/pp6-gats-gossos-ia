@@ -1,1 +1,1 @@
-streamlit,tensorflow,pillow,numpy
+streamlit, tensorflow, pillow, numpy
