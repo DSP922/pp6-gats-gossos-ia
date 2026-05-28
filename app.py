@@ -29,7 +29,7 @@ else:
     if uploaded_file is not None:
         try:
             image = Image.open(uploaded_file).convert("RGB")
-            st.image(image, caption="Imatge pujada", use_container_width=True)
+            st.image(image, caption="Imatge pujada", use_column_width=True)
 
             image_resized = image.resize((100, 100))
             img_array = np.array(image_resized) / 255.0
